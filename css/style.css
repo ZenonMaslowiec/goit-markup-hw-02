@@ -1,0 +1,226 @@
+:root 
+{
+    --main-font: font-family, 'Roboto', sans-serif;
+    --secondary-font: font-family, 'Raleway', sans-serif;
+    --main-color: #2196F3;
+    
+}
+
+body 
+{
+    font-family: var(--main-font);
+}
+
+    /*========COMPONENTS========*/
+
+    .modal-btn
+    {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.875;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        /*color: #FFFFFF;*/  
+         
+    }
+
+    /*========END COMPONENTS========*/
+
+
+    /*======== HEADER ========*/
+
+    .navigation-list-logo-item-left 
+    {
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.192;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+    }
+
+   .navigation-list-logo-item-right
+    {
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.192;
+        letter-spacing: 0.03em;
+        color: #000000;
+    }
+
+    .navigation-list-link
+    {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.143;
+        letter-spacing: 0.02em;
+        color: #212121;
+    }
+
+    .address-list-phone-number,
+    .address-list-mailto 
+    {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.143;
+        letter-spacing: 0.02em;
+        color: #757575;
+    }
+
+    .navigation-list-link:hover,
+    .navigation-list-link:focus,
+    .address-list-phone-number:hover,
+    .address-list-phone-number:focus,
+    .address-list-mailto:hover,
+    .address-list-mailto:focus
+   
+    {
+        color: var(--main-color);
+    }
+
+    
+    /*========END HEADER ========*/
+
+
+    /*========HERO========*/
+
+    .main-header
+    {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.363;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        /* color: #FFFFFF; */
+    }
+
+    .modal-btn:hover,
+    .modal-btn:focus
+
+    {
+        color: var(--main-color);
+        cursor: pointer;
+    }
+    
+
+    /*========END HERO========*/
+
+     
+    /*========ABOUT========*/
+
+    .secondary-header 
+    {
+        font-size: 36px;
+        line-height: 1.166;
+        letter-spacing: 0.03em;
+        color: #212121; 
+    }  
+
+    .about-strengths-list-item-list-item 
+    {   
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.143;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+    } 
+    
+    .about-strengths-list-item-list-item-text 
+    {   
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+
+    /*========END ABOUT========*/
+
+    /*========AGENCY========*/
+
+    .agency-list-name
+    {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.187;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #212121;
+    }  
+        
+    .agency-img-list-item-team-item
+    {
+        font-size: 16px;
+        line-height: 1.187;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }  
+        
+
+    /*========END AGENCY========*/
+
+
+    /*========FOOTER========*/
+
+    .address-list-item-link-address:hover,
+    .address-list-item-link-address:hover,
+    .address-list-item-link-mailto:hover,
+    .address-list-item-link-mailto:focus,
+    .address-list-item-link-phone-number:hover,
+    .address-list-item-link-phone-number:focus
+
+    {
+        color: var(--main-color);
+    }
+
+
+    .address-list-item-link-address
+    {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.714;
+        /* or 171% */
+        letter-spacing: 0.03em;
+        /*color: #FFFFFF;*/
+    }
+
+
+    .address-list-item-link-mailto,
+    .address-list-item-link-phone-number
+    {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        /*color: rgba(255, 255, 255, 0.6);*/
+    }
+
+    /*========END FOOTER========*/
+
+    /*========PORTFOLIO========*/
+
+    .portfolio-list-title  
+    {
+        font-size: 18px;
+        line-height: 2.000;
+        /* identical to box height, or 200% */
+        letter-spacing: 0.06em;
+        color: #212121;
+    }
+
+    .portfolio-list-product 
+    {
+        font-size: 16px;
+        line-height: 1.875;
+        /* identical to box height, or 187% */
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+
+    /*========END PORTFOLIO========*/
+
+
