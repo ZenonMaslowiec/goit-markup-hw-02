@@ -4,95 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
     <title>Studio</title>
 </head>
 
 <body>
 
-    <header>
-        <a href="WebStudio">WebStudio</a>
-       
-        <nav>
-            <ul>
-                <li><a href="#">Agencja</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Kontakt</a></li>
-            </ul> 
+    <header class="header">
+        <nav class="navigation">
+            
+                <ul class="navigation-list-logo">
+                    <li><a class="navigation-list-logo-item-left" href="index.html">Web</a></li>
+                    <li><a class="navigation-list-logo-item-right" href="index.html">Studio</a></li>
+                </ul>
+
+                <ul class="navigation-list">
+                    <li class="navigation-list-item"><a class="navigation-list-link" href="#">Agencja</a></li>
+                    <li class="navigation-list-item"><a class="navigation-list-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="navigation-list-item"><a class="navigation-list-link" href="#">Kontakt</a></li>
+                </ul> 
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-        </ul>
+            <ul class="address">
+                <li class="address-list"><a class="address-list-mailto" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="address-list"><a class="address-list-phone-number" href="tel:+48111111111">+48 111 111 111</a></li>
+            </ul>
     </header>
     
-    <main>
+    <main class="main">
         <!--HERO-->
-        <section>
-            <div>
-                <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                <button type="button">Zamów usługe</button>
+        <section class="hero">
+            <div class="hero-central">
+                <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+                <button class="modal-btn" type="button">Zamów usługe</button>
             </div>
         </section>
 
-        <!--Portfolio-->
-        <section>
+        <!-- O nas -->
+        <section class="about">
             <!--Nasze atuty-->
-            <div>
-                <ul>
-                    <li>LOREM IPSUM
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
-                    <li>LOREM IPSUM
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
-                    <li>LOREM IPSUM
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
-                    <li>LOREM IPSUM
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
+            <div class="about-top">
+                <ul class="about-strengths-list">
+                    <li class="about-strengths-list-item">
+                        <ul class="about-strengths-list-item-list">
+                            <li class="about-strengths-list-item-list-item">LOREM IPSUM</li>
+                            <li class="about-strengths-list-item-list-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
+                        </ul>
+                    </li>    
+                   
+                    <li class="about-strengths-list-item">
+                        <ul class="about-strengths-list-item-list">
+                            <li class="about-strengths-list-item-list-item">LOREM IPSUM</li>
+                            <li class="about-strengths-list-item-list-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
+                        </ul>
+                    </li>
+                    <li class="about-strengths-list-item">
+                        <ul class="about-strengths-list-item-list">
+                            <li class="about-strengths-list-item-list-item">LOREM IPSUM</li>
+                            <li class="about-strengths-list-item-list-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
+                        </ul>
+                    </li>
+                    <li class="about-strengths-list-item">
+                        <ul class="about-strengths-list-item-list">
+                            <li class="about-strengths-list-item-list-item">LOREM IPSUM</li>
+                            <li class="about-strengths-list-item-list-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
 
             <!--Czym się zajmujemy-->
-            <div>
-                <h2>Czym się zajmujemy</h2>
+            <div class="about-bottom">
+                <h2 class="secondary-header">Czym się zajmujemy</h2>
                 
-                <ul>
-                    <li>
-                        <img src="images/portfolio/box1.jpg" alt="box 1" width="370" height="294"/>
+                <ul class="about-img-list">
+                    <li class="about-img-list-item">
+                        <img class="about-img-list-img" src="images/job/box1.jpg" alt="box 1" width="370" height="294"/>
                     </li>
-                    <li>
-                        <img src="images/portfolio/box2.jpg" alt="box 2" width="370" height="294"/>
+                    <li class="about-img-list-item">
+                        <img class="about-img-list-img" src="images/job/box2.jpg" alt="box 2" width="370" height="294"/>
                     </li>
-                    <li>
-                        <img src="images/portfolio/box3.jpg" alt="box 3" width="370" height="294"/>
+                    <li class="about-img-list-item">
+                        <img class="about-img-list-img" src="images/job/box3.jpg" alt="box 3" width="370" height="294"/>
                     </li>
                 </ul>
             </div>
         </section>
 
         <!--Agencja-->
-        <section>
-            <h2>Nasz zespół</h2>
-            <div>
-                <ul>
-                    <li>
-                        <img src="images/team/teamcard1.jpg" alt="team card 1" width="406" height="390">
-                            <h3>John Doe</h3>
-                            <p>Product Designer</p>
+        <section class="agency">
+            <h2 class="secondary-header">Nasz zespół</h2>
+            <div class="agency-central">
+                <ul class="agency-img-list">
+                    <li class="agency-img-list-item">
+                        <img class="agency-img-list-item-team" src="images/team/teamcard1.jpg" alt="team card 1" width="406" height="390">
+                            <h3 class="agency-list-name">John Doe</h3>
+                            <p class="agency-img-list-item-team-item">Product Designer</p>
                     </li>
-                    <li>
-                        <img src="images/team/teamcard2.jpg" alt="team card 2" width="810" height="780">
-                            <h3>John Doe</h3>
-                            <p>Frontend Developer</p>
+                    <li class="agency-img-list-item">
+                        <img class="agency-img-list-item-team" src="images/team/teamcard2.jpg" alt="team card 2" width="406" height="390">
+                            <h3 class="agency-list-name">John Doe</h3>
+                            <p class="agency-img-list-item-team-item">Frontend Developer</p>
                     </li>
-                    <li>
-                        <img src="images/team/teamcard3.jpg" alt="team card 3" width="810" height="780">
-                            <h3>John Doe</h3>
-                            <p>Marketing</p>
+                    <li class="agency-img-list-item">
+                        <img class="agency-img-list-item-team" src="images/team/teamcard3.jpg" alt="team card 3" width="406" height="390">
+                            <h3 class="agency-list-name">John Doe</h3>
+                            <p class="agency-img-list-item-team-item">Marketing</p>
                     </li>
-                    <li>
-                        <img src="images/team/teamcard4.jpg" alt="team card 4" width="810" height="780">
-                            <h3>John Doe</h3>
-                            <p>UI Designer</p>
+                    <li class="agency-img-list-item">
+                        <img class="agency-img-list-item-team" src="images/team/teamcard4.jpg" alt="team card 4" width="406" height="390">
+                            <h3 class="agency-list-name">John Doe</h3>
+                            <p class="agency-img-list-item-team-item">UI Designer</p>
                     </li>
+                    
                 </ul>
             </div>
 
@@ -100,15 +128,19 @@
     
     </main>
 
-    <footer>
+    <footer class="footer">
+    
+        <ul class="navigation-list-logo">
+            <li><a class="navigation-list-logo-item-left" href="index.html">Web</a></li>
+            <li><a class="navigation-list-logo-item-right" href="index.html">Studio</a></li>
+        </ul>
 
-        <a href="WebStudio">WebStudio</a>
        
-        <address>
-            <ul>
-                <li><a href="#" target="_blank">m. Warszawa, Aleje Jerozolimskie 21</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        <address class="address">
+            <ul class="address-list">
+                <li class="address-list-item"><a class="address-list-item-link-address" href="#" target="_blank">m. Warszawa, Aleje Jerozolimskie 21</a></li>
+                <li class="address-list-item"><a class="address-list-item-link-mailto" href="mailto:info@example.com">info@example.com</a></li>
+                <li class="address-list-item"><a class="address-list-item-link-phone-number" href="tel:+48111111111">+48 111 111 111</a></li>
             </ul>
         </address>
 
