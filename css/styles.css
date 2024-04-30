@@ -1,0 +1,239 @@
+body {
+    font-family: "Roboto" , sans-serif;
+    color: #2E2F42;
+    }
+ul, ol
+    {
+        list-style-type: none;
+    }
+
+
+         /*========COMPONENTS========*/
+
+        .modal-btn 
+        {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1,5;
+                letter-spacing: 0.04em;
+                text-align: left;
+                color: #FFFFFF;
+                background: #4D5AE5;
+        }
+
+
+
+
+         /*========END-COMPONENTS========*/
+
+
+        /*======== HEADER ========*/
+
+          .navigation-list-logo-item-left
+           {
+            font-family: Raleway;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1,166;
+                letter-spacing: 0.03em;
+                text-align: left;
+                color: #4D5AE5;
+                text-decoration: none;
+                text-transform: uppercase;
+           }
+           .navigation-list-logo-item-right 
+           {
+            font-family: Raleway;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1,166;
+                letter-spacing: 0.03em;
+                text-align: left;
+                text-decoration: none;
+                text-transform: uppercase;
+            
+           }
+            .navigation-list-link 
+           {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1,5;
+                letter-spacing: 0.02em;
+                text-align: left;
+                text-decoration: none;
+           }
+            
+            .address-list-mailto,
+            .address-list-phone-number
+           {
+                font-size: 16px;
+                line-height: 1,5;
+                letter-spacing: 0.02em;
+                text-align: left;
+                text-decoration: none;
+                color: #434455;
+                font-style: normal;
+           }
+            .navigation-list-link:hover,
+            .navigation-list-link:focus,
+            .address-list-mailto:hover,
+            .address-list-mailto:focus,
+            .address-list-phone-number:hover,
+            .address-list-phone-number:focus
+
+            {
+               color: #404BBF;
+            }
+
+/*========END-HEADER ========*/
+
+/*========HERO========*/
+
+            .hero 
+            {
+                background: #2E2F42;
+            }
+
+            .main-header 
+            {
+                    font-size: 56px;
+                    font-weight: 700;
+                    line-height: 1,071;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                    color: #FFFFFF;
+            }
+
+            .modal-btn:hover,
+            .modal-btn:focus 
+            {
+                background: #404BBF;
+                cursor: pointer;
+            }
+
+         /*========END-HERO========*/
+
+
+           /*========ABOUT========*/
+
+           .secondary-header 
+           {
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 1,111;
+                letter-spacing: 0.02em;
+                text-align: center;
+           }
+
+            .about-header-list 
+            {
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 1,2;
+                    letter-spacing: 0.02em;
+                    text-align: left;
+            }
+
+            .about-strengths-list-item 
+            {
+                    font-size: 16px;
+                    line-height: 1,5;
+                    letter-spacing: 0.02em;
+                    text-align: left;
+                    color: #434455;
+            }
+           /*========END-ABOUT========*/
+
+               /*========AGENCY========*/
+
+            .agency 
+            {
+                background: #F4F4FD;
+            }
+
+            .agency-list-name 
+            {
+        
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 1,2;
+                letter-spacing: 0.02em;
+                text-align: center;
+            }
+
+            .agency-list-name-item 
+            {
+                font-size: 16px;
+                line-height: 1,5;
+                letter-spacing: 0.02em;
+                text-align: center;
+                color: #434455;
+            }
+
+          /*========END-AGENCY========*/
+
+       /*========PORTFOLIO========*/
+
+       .portfolio-list-title 
+       {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1,2;
+            letter-spacing: 0.02em;
+            text-align: left;
+       }
+
+       .portfolio-list-product 
+       {
+            font-size: 16px;
+            line-height: 1,5;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #434455;;
+       }
+
+     /*========END-PORTFOLIO========*/
+
+      /*========FOOTER========*/
+
+      .footer 
+      {
+        background: #2E2F42;
+      }
+
+      .footer-navigation-list-logo-item-left 
+      {
+        font-family: Raleway;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1,166;
+            letter-spacing: 0.03em;
+            text-align: left;
+            color: #4D5AE5;
+            text-transform: uppercase;
+            text-decoration: none;
+      }
+
+      .footer-navigation-list-logo-item-right 
+      {
+        font-family: Raleway;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1,166;
+            letter-spacing: 0.03em;
+            text-align: left;
+            color: #F4F4FD;
+            text-transform: uppercase;
+            text-decoration: none;
+      }
+
+      .footer-text 
+      {
+            font-size: 16px;
+            line-height: 1,5;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #F4F4FD;
+      }
+
+           /*========END-FOOTER========*/
