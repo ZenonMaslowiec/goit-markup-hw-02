@@ -1,0 +1,260 @@
+body {
+    font-family: "Roboto" , sans-serif;
+   /* color: #2E2F42;*/
+    background-color: #FFFFFF;
+    color: #434455;
+    }
+ul, ol
+    {
+        list-style-type: none;
+    }
+
+
+         /*========COMPONENTS========*/
+
+        .modal-btn 
+        {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.5;
+                letter-spacing: 0.04em;
+                text-align: left;
+                color: #FFFFFF;
+                background-color: #4D5AE5;
+        }
+
+
+
+
+         /*========END-COMPONENTS========*/
+
+
+        /*======== HEADER ========*/
+
+          .navigation-list-logo-item-left
+           {
+            font-family: Raleway, sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1.17;
+                letter-spacing: 0.03em;
+                text-align: left;
+                color: #4D5AE5;
+                text-decoration: none;
+                text-transform: uppercase;
+           }
+           .navigation-list-logo-item-right 
+           {
+            font-family: Raleway, sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1.166;
+                letter-spacing: 0.03em;
+                text-align: left;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #2E2F42;
+            
+           }
+            .navigation-list-link 
+           {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                text-align: left;
+                text-decoration: none;
+                color: #2E2F42;
+           }
+            
+            .address-list-mailto,
+            .address-list-phone-number
+           {
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                text-align: left;
+                text-decoration: none;
+                /*color: #434455;*/
+            }
+
+           .address 
+           {
+                font-style: normal;
+           }
+
+            .navigation-list-link:hover,
+            .navigation-list-link:focus,
+            .address-list-mailto:hover,
+            .address-list-mailto:focus,
+            .address-list-phone-number:hover,
+            .address-list-phone-number:focus
+
+            {
+               color: #404BBF;
+            }
+
+/*========END-HEADER ========*/
+
+/*========HERO========*/
+
+            .hero 
+            {
+                background-color: #2E2F42;
+            }
+
+            .main-header 
+            {
+                    font-size: 56px;
+                    font-weight: 700;
+                    line-height: 1.07;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                    color: #FFFFFF;
+            }
+
+            .modal-btn:hover,
+            .modal-btn:focus 
+            {
+                background-color: #404BBF;
+                cursor: pointer;
+            }
+
+         /*========END-HERO========*/
+
+
+           /*========ABOUT========*/
+
+           .secondary-header 
+           {
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 1.11;
+                letter-spacing: 0.02em;
+                text-align: center;
+                color: #2E2F42;
+                text-transform: capitalize;
+           }
+
+            .about-header-list 
+            {
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 1.2;
+                    letter-spacing: 0.02em;
+                    text-align: left;
+                    color: #2E2F42;
+            }
+
+            .about-strengths-list-item 
+            {
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.02em;
+                    text-align: left;
+                    /*color: #434455;*/
+            }
+
+           
+           /*========END-ABOUT========*/
+
+               /*========AGENCY========*/
+
+            .agency 
+            {
+                background-color: #F4F4FD;
+            }
+                         
+            .agency-img-list 
+            {
+                background-color: #FFFFFF;
+            }
+
+            .agency-list-name 
+            {
+        
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 1.2;
+                letter-spacing: 0.02em;
+                text-align: center;
+                color: #2E2F42;
+            }
+
+            .agency-list-name-item 
+            {
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                text-align: center;
+                /*color: #434455;*/
+            }
+
+          /*========END-AGENCY========*/
+
+       /*========PORTFOLIO========*/
+
+       .portfolio-list-title 
+       {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #2E2F42;
+       }
+
+       .portfolio-list-product 
+       {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            text-align: left;
+            /*color: #434455;*/
+       }
+
+     /*========END-PORTFOLIO========*/
+
+      /*========FOOTER========*/
+
+      .footer 
+      {
+        background: #2E2F42;
+      }
+
+      .footer-logo-item-left,
+      .footer-logo-item-right
+      {
+        font-family: Raleway, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-align: left;
+            color: #4D5AE5;
+            text-transform: uppercase;
+            text-decoration: none;
+      }
+
+      .footer-logo-item-right 
+      {
+       /* font-family: Raleway, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-align: left;*/
+            color: #F4F4FD;
+            /*text-transform: uppercase;
+            text-decoration: none;*/
+      }
+
+      .footer-text 
+      {
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #F4F4FD;
+      }
+
+           /*========END-FOOTER========*/
