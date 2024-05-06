@@ -67,8 +67,8 @@ ul, ol
                 color: #2E2F42;
            }
             
-            .address-list-mailto,
-            .address-list-phone-number
+            .address-list-mailto-phone
+            /*.address-list-phone-number*/
            {
                 font-size: 16px;
                 line-height: 1.5;
@@ -85,10 +85,10 @@ ul, ol
 
             .navigation-list-link:hover,
             .navigation-list-link:focus,
-            .address-list-mailto:hover,
-            .address-list-mailto:focus,
-            .address-list-phone-number:hover,
-            .address-list-phone-number:focus
+            .address-list-mailto-phone:hover,
+            .address-list-mailto-phone:focus
+           /* .address-list-phone-number:hover,
+            .address-list-phone-number:focus*/
 
             {
                color: #404BBF;
